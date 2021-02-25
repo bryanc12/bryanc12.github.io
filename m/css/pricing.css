@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background-color: gray;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 5px;
+    text-decoration: none;
+    position: relative;
+}
+.main-menu, .buttons-bar-wrap, .nav-bar {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    align-items: center;
+}
+.menu-wrap {
+    margin: 0 100px;
+    width: inherit;
+}
+.logo {
+    width: 450px;
+    float: left;
+}
+.menu-btn {
+    float: right;
+    margin-top: 5px;
+}
+.menu-btn:focus, .menu-btn:active, .menu-btn-d:focus, .menu-btn-d:active {
+    outline-style: hidden;
+}
+.menu-btn-d {
+    margin-top: 20px;
+    height: 7px;
+    width: 75px;
+    background-color: white;
+}
+.buttons-bar-wrap {
+    margin-top: -3px;
+    height: 0px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    transition-duration: 0.2s;
+    overflow: hidden;
+    position: absolute;
+}
+.bar-btn {
+    margin: 30px 20px;
+    font-size: 50px;
+    text-decoration: inherit;
+    color: white;
+}
+.bar-btn-top {
+    margin-top: 75px;
+}
+.bar-btn-btm {
+    margin-bottom: 75px;
+}
+.nav-bar {
+    margin-top: -2px;
+    height: 110px;
+    background-color: #4b4b4b;
+    justify-content: center;
+}
+.nav-btn {
+    font-size: 45px;
+    text-decoration: none;
+    color: white;
+}
+.btn-divider {
+    height: 70px;
+    width: 5px;
+    background-color: white;
+    margin: 0 150px;
+}

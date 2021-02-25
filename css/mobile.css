@@ -1,0 +1,261 @@
+/*Mobile-Nav-Start*/
+.mobile-overlay {
+    display: none;
+}
+.mobile-burger{
+    display: none;
+}
+/*Mobile-Nav-End*/
+
+/*Media Quiries=====================================1024px=====================================*/
+@media screen and (max-width: 1024px) {
+    .main-menu, .main-menu-nav {
+        display: none;
+    }
+    .intro-bg {
+        height: 80vw;
+    }
+    .intro-c-wrap {
+        justify-content: space-between;
+        display: flex;
+        align-content: center;
+        width: 100%;
+        top: 1vw;
+        position: absolute; 
+    }
+    .logo-wrap {
+        width: 1vw;
+        margin-left: 10vw;
+    }
+    .logo {
+        padding: none;
+        margin-top: 4vw;
+        width: 30vw;
+    }
+    .nav-wrap {
+        display: none;
+    }
+    .slogan-c-wrap {
+        top: 20vw;
+    }
+    .slogan-space {
+        margin-top: 10vw;
+    }
+    .slogan {
+        white-space: pre-wrap;
+        font-size: 5vw;
+    }
+    .slogan2 {
+        font-size: 4vw;
+    }
+    .slogan-btn {
+        font-size: 4vw;
+    }
+    .slogan-btn:hover {
+        font-size: 4vw;
+        transition: 0s;
+    }
+    .future {
+        background: white;
+        width: 90vw;
+        margin: 15vw 5vw 5vw 5vw;
+        display: inline-block;
+        text-align: center;
+    }
+    .future-title {
+        font-size: 5vw;
+    }
+    .icon-title {
+        margin-top: 3vw;
+        font-size: 3vw;
+    }
+    .icon-sentences {
+        margin-top: 4vw;
+        font-size: 2vw;
+    }
+    .extra-cautions {
+        margin-top: 20vw;
+    }
+    .cautions {
+        font-size: 1.3vw;
+    }
+    .location {
+        background: rgb(240, 240, 240);
+    }
+    .location-wrap {
+        padding: 15vw 0vw 15vw 0vw;
+    }
+    .location-icon {
+        width: 33vw;
+    } 
+    .location-title {
+        font-size: 3vw;
+    }
+    .location-sentences {
+        font-size: 2vw;
+    }
+    .location-btn {
+        font-size: 2.5vw;
+    }
+    .discord-for-help {
+        font-size: 2vw;
+    }
+    .right-content-wrap {
+        font-size: 3vw;
+    }
+    /*Mobile-Nav-Start*/
+    .mobile-overlay {
+        overflow-y: hidden;
+        font-family: 'Lato', sans-serif;
+        display: block;
+        height: 0%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+    }      
+    .mobile-overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }      
+    .mobile-overlay a {
+        margin-top: 4vw;
+        padding: 8px;
+        text-decoration: none;
+        font-size: 5vw;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+    .mobile-overlay a:hover, .mobile-overlay a:focus {
+        color: #f1f1f1;
+    }
+    .mobile-overlay .mobile-closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 100px;
+    }
+    .mobile-nav-wrap {
+        right: 0;
+        z-index: 1;
+        margin:  5% 7% 0 0;
+        position: absolute;
+    }
+    .mobile-burger {
+        cursor: pointer;
+        color: white;
+        font-size: 6vw;
+        display: block;
+    }
+    /*Mobile-Nav-End*/
+}
+
+/*Media Quiries=====================================414px=====================================*/
+@media screen and (max-width: 414px) {
+    .sbox {
+        display: none;
+    }
+    .intro-bg {
+        height: 80vw;
+    }
+    .intro-c-wrap {
+        justify-content: space-between;
+        display: flex;
+        align-content: center;
+        width: 100%;
+        top: 1vw;
+        position: absolute; 
+    }
+    .logo-wrap {
+        width: 1vw;
+        margin-left: 10vw;
+    }
+    .logo {
+        padding: none;
+        margin-top: 2vw;
+        width: 40vw;
+    }
+    .nav-wrap {
+        display: none;
+    }
+    .slogan-c-wrap {
+        top: 20vw;
+    }
+    .slogan-space {
+        margin-top: 10vw;
+    }
+    .slogan {
+        white-space: pre-wrap;
+        font-size: 5vw;
+    }
+    .slogan2 {
+        font-size: 4vw;
+    }
+    .slogan-btn {
+        font-size: 4vw;
+    }
+    .slogan-btn:hover {
+        font-size: 4vw;
+        transition: 0s;
+    }
+
+    /*Mobile-Nav-Start*/
+    .mobile-overlay {
+        font-family: 'Lato', sans-serif;
+        display: block;
+        height: 0%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+    }      
+    .mobile-overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }      
+    .mobile-overlay a {
+        margin-top: 4vw;
+        padding: 8px;
+        text-decoration: none;
+        font-size: 5vw;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+    .mobile-overlay a:hover, .mobile-overlay a:focus {
+        color: #f1f1f1;
+    }
+    .mobile-overlay .mobile-closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+    }
+    .mobile-nav-wrap {
+        margin:  3% 7% 0 0;
+    }
+    .mobile-burger {
+        cursor: pointer;
+        color: white;
+        font-size: 6vw;
+        display: block;
+    }
+    /*Mobile-Nav-End*/
+}

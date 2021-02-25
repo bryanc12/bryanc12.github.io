@@ -1,0 +1,181 @@
+.intro {
+    position: relative;
+}
+.intro-bg, .official-bg {
+    height: 40vw;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slogan-c-wrap {
+    white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+    width: 84vw;
+    top: 10vw;
+    position: absolute;
+    margin: 0vw 8vw 0vw 8vw
+}
+.slogan-space {
+    margin-top: 3vw;
+}
+.slogan {
+    letter-spacing: 0.03em ;
+    font-size: 3vw;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 0 0 3px white;
+    text-decoration: none;
+    color: white;
+}
+.slogan:hover {
+    text-shadow: 0 0 10px white;
+    transition-duration: 1s;
+}
+.slogan2 {
+    letter-spacing: 0.03em ;
+    font-size: 2vw;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+.slogan-btn {
+    padding: 1vw 2vw 1vw 2vw;
+    letter-spacing: 0.03em ;
+    font-size: 2vw;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: white;
+    border-width: 0.1em;
+    border-style: solid;
+}
+.slogan-btn:hover {
+    font-size: 2.1vw;
+    transition: 1.5s;
+    text-shadow: 0 0 3px green;
+}
+.feature {
+    background: white;
+    width: 100%;
+    margin: 7vw 0 5vw 0;
+    display: inline-block;
+    text-align: center;
+}
+.feature-title {
+    letter-spacing: 0.03em ;
+    font-size: 2vw;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.feature-columns-wrap {
+    margin-top: 5vw;
+    column-count: 3;
+}
+.icon-wrap {
+    margin: 0vw 2vw 0vw 2vw
+}
+.feature-icon {
+    width: 15%;
+}
+.icon-title {
+    margin-top: 1.5vw;
+    letter-spacing: 0.03em ;
+    font-size: 1.5vw;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 0.5vw;
+    border-bottom: 0.1em solid black;
+}
+.icon-sentences {
+    cursor: default;
+    margin-top: 1vw;
+    letter-spacing: 0.03em ;
+    font-size: 1.1vw;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: grey;
+}
+.icon-sentences:hover {
+    color: black;
+    transition-duration: 0.5s;
+}
+.extra-cautions {
+    margin-left: 3%;
+    margin-top: 10vw;
+    text-align: left;
+}
+.cautions {
+    letter-spacing: 0.03em ;
+    font-size: 0.9vw;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: grey;
+}
+.location {
+    background: rgb(240, 240, 240);
+}
+.location-wrap {
+    padding: 5vw 0vw 5vw 0vw;
+    column-count: 2;
+}
+.location-split-left {
+   text-align: center;
+}
+.location-icon {
+    text-align: center;
+    width: 30vw;
+}
+.location-split-right {
+    padding: 9vw 5vw 0vw 0vw;
+}   
+.location-title {
+    letter-spacing: 0.03em ;
+    font-size: 2.3vw;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.location-sentences {
+    margin-top: 5vw;
+    letter-spacing: 0.03em ;
+    font-size: 1.2vw;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.location-btn-wrap {
+    margin: 2.5vw 0vw 0vw 2vw;
+}
+.location-btn {
+    color: black;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5vw;
+    padding: 1vw;
+    border: solid 2px black;
+}
+.location-btn:hover {
+    color: white;
+    background-color: black;
+    transition-duration: 1s;
+}
+.official-bg {
+    height: 15vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.official-c-wrap {
+    text-align: center;
+    letter-spacing: 0.03em ;
+    font-size: 2.5vw;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 0 0 2px white;
+    text-decoration: none;
+    color: white;
+}
+.official-link {
+    font-size: 2vw;
+}
